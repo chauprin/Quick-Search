@@ -114,12 +114,15 @@ def index():
 			</p>
 			<br>
 			<h3>Usage</h3>
-			To use it Please follow the following syntax : <br>
-			<p>curl https://quick-search.herokuapp.com//THE_QUERY_TO_BE_SEARCHED<p>
+			To use it please follow the following syntax : <br>
+			<p>https://quick-search.herokuapp.com/THE_QUERY_TO_BE_SEARCHED <br> 
+			curl https://quick-search.herokuapp.com/THE+QUERY+TO+BE+SEARCHED</p>
+			<br>
 			<br>
 			<h3><a href="https://github.com/prince-chauhan/Quick-Search">Link to its code on Github</a></h3>
 			<br>
 			<br>
+
 				<footer class="footer">
 				<br>
 					Contact : <br>
@@ -134,7 +137,8 @@ def index():
 				</footer>
 			</body>
 			</html>
-			"""			
+			"""		
+
 
 @app.route("/<query>")
 def main(query):
